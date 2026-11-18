@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="screenshots/01_笔记列表_时间戳.png" width="260" alt="笔记列表">
+  <img src="screenshots/06_编辑器.png" width="260" alt="编辑器">
   <img src="screenshots/07_选择便签颜色.png" width="260" alt="便签配色">
-  <img src="screenshots/14_返回询问保存.png" width="260" alt="退出保存确认">
 </p>
 
 ## 功能一览
@@ -40,8 +40,6 @@
 | 选择颜色 | 背景生效 | 返回询问保存 |
 | --- | --- | --- |
 | ![](screenshots/07_选择便签颜色.png) | ![](screenshots/08_更换背景效果.png) | ![](screenshots/14_返回询问保存.png) |
-
-> 部分截图拍摄于功能迭代中期（界面显示相对时间、标题输入框尚未加入），最终细节以图 01、14 为准，详见 [项目报告.md](项目报告.md) 第 7.3 节。
 
 ## 技术栈
 
