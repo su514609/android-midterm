@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.example.android.notepad'
+    compileSdk 37
+    buildToolsVersion "36.0.0"
+
+    defaultConfig {
+        applicationId "com.example.android.notepad"
+        minSdk 24
+        targetSdk 37
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+}

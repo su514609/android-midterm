@@ -1,0 +1,26 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Local build output
+NotePad/.gradle/
+NotePad/build/
+NotePad/app/build/
+NotePad/local.properties
+
+# WorkBuddy local notes
+.workbuddy/
+
+# Android Studio import summary (generated, safe to delete)
+NotePad/import-summary.txt
+
+# 课程下发的实验说明 PDF，不属于项目源码
+期中实验_NotePad记事本应用.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing files
+*.jks
+*.keystore

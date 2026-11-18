@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">记事本</string>
+    <string name="live_folder_name">笔记</string>
+
+    <string name="title_edit_title">笔记标题：</string>
+    <string name="title_create">新建笔记</string>
+    <string name="title_edit">编辑：%1$s</string>
+    <string name="title_notes_list">我的笔记</string>
+
+    <string name="menu_add">新建笔记</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_revert">撤销修改</string>
+    <string name="menu_copy">复制</string>
+    <string name="menu_paste">粘贴</string>
+
+    <!-- 扩展功能的界面文案 -->
+    <string name="menu_search">搜索</string>
+    <string name="menu_sort">排序</string>
+    <string name="menu_category">分类</string>
+    <string name="menu_color">背景颜色</string>
+    <string name="menu_copy_note">复制笔记</string>
+    <string name="menu_paste_note">粘贴笔记</string>
+    <string name="search_hint">搜索标题或内容</string>
+    <string name="editor_modified_at">最后修改：%1$s</string>
+    <string name="dialog_color_title">选择便签颜色</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="untitled_note">无标题</string>
+    <string name="empty_notes">还没有笔记\n点击右下角 + 新建一篇</string>
+    <string name="empty_search">没有找到符合条件的笔记</string>
+
+    <!-- 标题输入 -->
+    <string name="title_hint">输入标题…</string>
+    <string name="title_dialog_title">笔记标题</string>
+
+    <!-- 列表条目上的常驻操作按钮 -->
+    <string name="cd_edit_note">编辑笔记</string>
+    <string name="cd_delete_note">删除笔记</string>
+
+    <!-- 空白区域右键 / 长按弹出的菜单 -->
+    <string name="context_blank_title">记事本</string>
+
+    <!-- 复制、粘贴与删除的提示 -->
+    <string name="toast_copied">已复制整篇笔记（含标题、分类与背景色）</string>
+    <string name="toast_pasted">已粘贴笔记</string>
+    <string name="toast_nothing_to_paste">剪贴板里没有可粘贴的内容</string>
+    <string name="toast_note_deleted">笔记已删除</string>
+    <string name="dialog_delete_title">删除笔记</string>
+    <string name="dialog_delete_message">确定要删除「%1$s」吗？删除后无法恢复。</string>
+    <string name="dialog_delete_confirm">删除</string>
+
+    <!-- 返回时询问是否保存 -->
+    <string name="dialog_unsaved_title">保存修改？</string>
+    <string name="dialog_unsaved_message">当前笔记有未保存的修改。\n选择「不保存」将丢弃这些修改，笔记内容和修改时间都保持原样。</string>
+    <string name="dialog_unsaved_save">保存</string>
+    <string name="dialog_unsaved_discard">不保存</string>
+    <string name="toast_note_saved">已保存</string>
+    <string name="toast_discarded">已放弃修改</string>
+
+    <string-array name="sort_options">
+        <item>修改时间（最新在前）</item>
+        <item>修改时间（最早在前）</item>
+        <item>标题（A → Z）</item>
+        <item>分类</item>
+    </string-array>
+
+    <string name="button_ok">确定</string>
+    <string name="text_title">标题：</string>
+
+    <string name="resolve_edit">编辑笔记</string>
+    <string name="resolve_title">编辑标题</string>
+
+    <string name="error_title">出错了</string>
+    <string name="error_message">笔记加载失败</string>
+    <string name="nothing_to_save">没有可保存的内容</string>
+</resources>

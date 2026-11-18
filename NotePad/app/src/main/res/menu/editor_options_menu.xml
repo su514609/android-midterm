@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_save"
+        android:alphabeticShortcut="s"
+        android:icon="@drawable/ic_save"
+        android:title="@string/menu_save"
+        app:showAsAction="always" />
+
+    <!-- 扩展：更换便签背景颜色 -->
+    <item
+        android:id="@+id/menu_color"
+        android:icon="@drawable/ic_palette"
+        android:title="@string/menu_color"
+        app:showAsAction="always" />
+
+    <!-- 扩展：设置笔记分类 -->
+    <item
+        android:id="@+id/menu_category"
+        android:icon="@drawable/ic_category"
+        android:title="@string/menu_category"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_revert"
+        android:icon="@drawable/ic_revert"
+        android:title="@string/menu_revert"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/menu_delete"
+        app:showAsAction="never" />
+</menu>
